@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="shortcut icon" href="./Imagenes/LogoChico.ico" />
+	<link rel="stylesheet" type="text/css" href="Estilo.css">
+	<title>Kalú Oficial</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-inverse" id="nav">
+		<a class="navbar-brand titulo" href="#">Kalú</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item ">
+					<a class="nav-link" href=".\Principal.html" target="_self">Home <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href=".\Integrantes.html" target="_self">Integrantes</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href=".\Galería_ de_Fotos.html" target= "_self">Galería de Fotos</a>			</li>
+				<li class="nav-item">
+					<a class="nav-link" href=".\Musica.html" target= "_self">Escuchá nuestra música</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href=".\Agenda.html" target= "_self">Agenda</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href=".\Suscripcion.html" target= "_self">Suscribirse para recibir novedades</a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="#" target= "_self">Contacto</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<br>
+	<div class="container">
+		<h1 class="titulo"> Contacto </h1>
+		<br>
+		<div class="row">
+			<div class="col-md-6 col-sm-12 agenda">
+				<form action="#" id="contacto">
+			    <label for="nombre">Nombre</label>
+			    <input type="text" id="nombre" name="nombre" placeholder="Max Power">
+
+			    <label for="email">E-Mail</label>
+			    <input type="text" id="email" name="email" placeholder="maxpower-hjs@springfield.com">
+
+					<label for="telefono">N° de Teléfono</label>
+			    <input type="text" id="telefono" name="telefono" placeholder="+54 9 3141 592653">
+
+					<label for="comentario">Comentario</label>
+			  	<textarea type="text" id="comentario" rows="8"  cols="20"></textarea>
+
+			    <input type="submit" value="Enviar" onclick="alert('Somos músicos, no esperes una respuesta rápida...')">
+			  </form>
+		</div>
+		<div class="col-md-6 col-sm-12 agenda" style="font-size:1.2em;color:#999999;">
+			Otras formas de contactarnos:
+			<br>
+			<br>
+			<ul class="list"><!-- Lista Desordenada-->
+				<li><img src ="./Imagenes/lsm32.png" width = "32"/> +54 9 3492 658584</i>
+				<li><img src ="./Imagenes/lgm32.png" width = "32"/> kalu.rafaela@gmail.com</i>
+				<li><img src ="./Imagenes/lig32.png" width = "32"/><a href= "https://instagram.com/kaluoficial/" target="_blank" class="card-link">&nbsp;&nbsp;Instagram</a></i>
+				<li><img src ="./Imagenes/lfb32.png" width = "32"/><a href="https://www.facebook.com/Kalu.PowerTrio/" target="_blank" class="card-link">&nbsp;&nbsp;Facebook</a></i>
+			</ul>
+		</div>
+	</div>
+</div>
+</body>

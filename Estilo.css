@@ -1,0 +1,188 @@
+body {
+	background: url(./Imagenes/fondo.jpg) fixed center 0;
+	font-family: Century Gothic, sans-serif;
+	color: white
+
+}
+.titulo {
+  color: #999999;
+  font-family: Century Gothic, sans-serif;
+}
+
+.parrafo {
+	font-family: Century Gothic, sans-serif;
+	color: white;
+	font-size: .7em;
+}
+
+.centrado{
+	margin-left: auto;
+	margin-right:auto;
+}
+
+#nav
+{
+    background-color: rgba(0, 0, 0, 0.85);
+}
+
+.cont {
+	margin-top:80px;
+}
+.cont_bt{
+	margin-bottom: 80px;
+}
+
+.card-personalizada{
+	background-color: rgba(0, 0, 0, 0.9);
+	border-radius: 8px;
+}
+
+.desplegable{
+	border-bottom-style: solid;
+	border-color: #083c59;
+	border-width: thin;
+}
+
+.card-title{
+	color: #1d5e82;
+}
+.card-link{
+	color: #5d717c;
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.img-bw{
+filter: grayscale(55%);
+-webkit-filter: grayscale(55%);
+-moz-filter: grayscale(55%);
+-ms-filter: grayscale(55%);
+-o-filter: grayscale(55%);
+}
+.img-bw:hover{
+	filter: grayscale(30%);
+	-webkit-filter: grayscale(30%);
+	-moz-filter: grayscale(30%);
+	-ms-filter: grayscale(30%);
+	-o-filter: grayscale(30%);
+	transition:all .5s ease-in-out;
+}
+
+.list{
+	list-style-type:none;
+}
+
+.img-gal{
+	opacity: 0.7;
+	filter:(opacity=50);
+}
+
+div.gallery {
+    border: 0px;
+		background-color: black;
+}
+
+.img-gal:hover {
+    background-color: black;
+		opacity: 1;
+		filter: (opacity=100);
+		transition:all .2s ease-in-out
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/*Reproductor de música*/
+#playlist{
+	list-style: none;
+}
+
+#playlist li a{
+	text-decoration: none;
+}
+
+#playlist .current-song a{
+	color: white;
+}
+
+audio {
+margin:0 15px 0 14px;
+width:100%;
+}
+
+
+/*Agenda*/
+.agenda{
+	font-family: Century Gothic, sans-serif;
+	color: #999999;
+	font-size: .9em;
+	font-weight: bold;
+}
+
+hr {
+  height: 5px;
+  background-color: white;
+}
+
+/*Formularios*/
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+		background-color: rgba(2, 2, 2, 0.7);
+		color: white;
+		outline: none;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: rgba(2, 20, 2, 0.7);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: rgba(2, 2, 2, 0.5);
+}

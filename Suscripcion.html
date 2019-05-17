@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="shortcut icon" href="./Imagenes/LogoChico.ico" />
+	<link rel="stylesheet" type="text/css" href="Estilo.css">
+	<title>Kalú Oficial</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-inverse" id="nav">
+		<a class="navbar-brand titulo" href="#">Kalú</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item ">
+					<a class="nav-link" href=".\Principal.html" target="_self">Home <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href=".\Integrantes.html" target="_self">Integrantes</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href=".\Galería_ de_Fotos.html" target= "_self">Galería de Fotos</a>			</li>
+				<li class="nav-item">
+					<a class="nav-link" href=".\Musica.html" target= "_self">Escuchá nuestra música</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href=".\Agenda.html" target= "_self">Agenda</a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="#" target= "_self">Suscribirse para recibir novedades</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href=".\Contacto.html" target= "_self">Contacto</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<br>
+	<div class="container">
+	<h1 class="titulo"> Suscripción </h1>
+	<br>
+	<div class="row">
+		<div class="col-md-6 col-sm-12 agenda">
+		  <form action="#">
+		    <label for="nombre">Nombre</label>
+		    <input type="text" id="nombre" value="Homer J Simpson"  name="nombre" placeholder="Max Power">
+
+		    <label for="email">E-Mail</label>
+		    <input type="text" id="email" name="email" placeholder="maxpower-hjs@springfield.com">
+
+		    <label for="preferida">Canción Preferida</label>
+		    <select id="preferida" name="preferida">
+		      <option value="Solo">Solo</option>
+		      <option value="Temprano">Temprano</option>
+		      <option value="TShirt">T-Shirt</option>
+		    </select>
+
+		    <input type="submit" value="Enviar" onclick="alert('Has realizado la mejor desición de tu vida, congrats bro...')">
+		  </form>
+		</div>
+		<div class="col-md-6 col-sm-12 agenda">
+			<p class="parrafo" style="font-size:1.5em;color:#999999;">
+				<br>
+				Enterate de las próximas fechas, nuevos temas, sorteos de entradas y merchandising (remeras, gorras y más!).
+			</p>
+		</div>
+	</div>
+</body>
